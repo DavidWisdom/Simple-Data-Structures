@@ -1,3 +1,20 @@
 # ninja log v5
 2	280	6863781240674536	CMakeFiles/Simple_Data_Structures.dir/main.cpp.obj	a601fed09ea05ee6
 280	382	6863781241652765	Simple_Data_Structures.exe	4d32575f8a0325ad
+1	227	6863935161715962	build.ninja	ad1e3c4465b9a55e
+5	339	6863935406730744	CMakeFiles/Simple_Data_Structures.dir/main.cpp.obj	a601fed09ea05ee6
+340	526	6863935408528526	Simple_Data_Structures.exe	4d32575f8a0325ad
+2	322	6863935686503735	CMakeFiles/Simple_Data_Structures.dir/main.cpp.obj	a601fed09ea05ee6
+322	449	6863935687644123	Simple_Data_Structures.exe	4d32575f8a0325ad
+3	288	6863936165434079	CMakeFiles/Simple_Data_Structures.dir/main.cpp.obj	a601fed09ea05ee6
+289	406	6863936166714077	Simple_Data_Structures.exe	4d32575f8a0325ad
+2	289	6863936223903909	CMakeFiles/Simple_Data_Structures.dir/main.cpp.obj	a601fed09ea05ee6
+289	408	6863936224929796	Simple_Data_Structures.exe	4d32575f8a0325ad
+2	329	6863941566794484	CMakeFiles/Simple_Data_Structures.dir/main.cpp.obj	a601fed09ea05ee6
+330	472	6863941568043230	Simple_Data_Structures.exe	4d32575f8a0325ad
+2	344	6863941749207127	CMakeFiles/Simple_Data_Structures.dir/main.cpp.obj	a601fed09ea05ee6
+344	450	6863941750563829	Simple_Data_Structures.exe	4d32575f8a0325ad
+2	285	6863942979009699	CMakeFiles/Simple_Data_Structures.dir/main.cpp.obj	a601fed09ea05ee6
+285	410	6863942980059722	Simple_Data_Structures.exe	4d32575f8a0325ad
+3	324	6863943105131854	CMakeFiles/Simple_Data_Structures.dir/main.cpp.obj	a601fed09ea05ee6
+325	429	6863943106125713	Simple_Data_Structures.exe	4d32575f8a0325ad

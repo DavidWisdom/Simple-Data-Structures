@@ -42,7 +42,7 @@ namespace MyQueue {
         return array[begin];
     }
     // 返回队尾元素
-    __attribute__((unused)) T back() {
+    T back() {
         assert(len != 0);
         return end == 0 ? array[MAX_N - 1] : array[end - 1];
     }

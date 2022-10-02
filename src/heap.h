@@ -13,7 +13,7 @@ namespace MyHeap {
 #define MAX_HEAP
 #ifdef MAX_HEAP
 #define op >
-#elifdef MIN_HEAP
+#else
 #define op <
 #endif
     T heap[MAX_N];
@@ -46,6 +46,9 @@ namespace MyHeap {
     T top() {
         assert(len != 0);
         return heap[1];
+    }
+    void buildHeap() {
+
     }
 }
 #undef T
