@@ -4,6 +4,7 @@
 
 #ifndef SIMPLE_DATA_STRUCTURES_QUEUE_H
 #define SIMPLE_DATA_STRUCTURES_QUEUE_H
+#include <cassert>
 #define MAX_N 1000000
 #define T int
 namespace MyQueue {
@@ -24,27 +25,28 @@ namespace MyQueue {
     }
     // 入队
     void push(const T& item) {
-        // assert(len != MAX_N);
+        assert(len != MAX_N);
         array[end] = item;
         end = (end + 1) % MAX_N;
         ++len;
     }
     // 出队
     void pop() {
-        // assert(len != 0);
+        assert(len != 0);
         begin = (begin + 1) % MAX_N;
         --len;
     }
     // 返回队首元素
     T front() {
-        // assert(len != 0);
+        assert(len != 0);
         return array[begin];
     }
     // 返回队尾元素
-    T back() {
-        // assert(len != 0);
+    __attribute__((unused)) T back() {
+        assert(len != 0);
         return end == 0 ? array[MAX_N - 1] : array[end - 1];
     }
 }
+#undef T
 #undef MAX_N
 #endif //SIMPLE_DATA_STRUCTURES_QUEUE_H

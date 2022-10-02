@@ -4,6 +4,7 @@
 
 #ifndef SIMPLE_DATA_STRUCTURES_STACK_H
 #define SIMPLE_DATA_STRUCTURES_STACK_H
+#include <cassert>
 #define MAX_N 1000000
 #define T int
 namespace MyStack {
@@ -20,17 +21,17 @@ namespace MyStack {
     }
     // 入栈
     void push(const T& item) {
-        // assert(topId != MAX_N);
+        assert(topId != MAX_N);
         array[topId++] = item;
     }
     // 出栈
     void pop() {
-        // assert(topId != 0);
+        assert(topId != 0);
         --topId;
     }
     // 返回栈顶元素
     T top() {
-        // assert(topId != 0);
+        assert(topId != 0);
         return array[topId - 1];
     }
 }
